@@ -14,8 +14,8 @@
 
 $(document).ready(function () {
 
-    var key = "AIzaSyDmEX3B9K-BoF7j8fuGQjqCNV8K8mznhq0";
-    var playlistId = 'PLNeCCFiHDfb2OQDYeX2hAtNr0mmTjnNe5';
+    var key = "AIzaSyAT5cpLOsYq_LAcAUjd_1xzr974wNFwvrI";
+    var playlistId = 'PLNeCCFiHDfb3s8lTX7gI1LfGZ4IJs9jSr';
     var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
 
