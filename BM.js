@@ -14,15 +14,15 @@
 
 $(document).ready(function () {
 
-    var key = "AIzaSyAT5cpLOsYq_LAcAUjd_1xzr974wNFwvrI";
-    var playlistId = 'PLNeCCFiHDfb3s8lTX7gI1LfGZ4IJs9jSr';
+    var key = "AIzaSyDmEX3B9K-BoF7j8fuGQjqCNV8K8mznhq0";
+    var playlistId = 'PLNeCCFiHDfb2OQDYeX2hAtNr0mmTjnNe5';
     var URL = 'https://www.googleapis.com/youtube/v3/playlistItems';
 
 
     var options = {
         part: 'snippet',
         key: key,
-        maxResults: 20,
+        maxResults: 100000,
         playlistId: playlistId
     }
 
@@ -75,3 +75,5 @@ $(document).ready(function () {
 
 
 });
+
+
